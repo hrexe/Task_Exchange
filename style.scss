@@ -1,0 +1,74 @@
+body {
+text-align: center;  
+padding: 10% 30%;
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: -111;
+  }
+  
+
+
+
+  
+  .viewport-header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+  
+  main {
+    display: none;
+    width: 80vw;
+    left: 10%;
+    height: 40vh;
+    overflow: auto;
+    background: rgba(black, 0.66);
+    color: white;
+    position: relative;
+    padding: 1rem;
+  }
+
+  label {
+    background-color: black;
+    color: #fff;
+    border-radius: 15%;
+  }
+
+  p {
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+  }
+ 
+
+  #btn {
+    margin: 30px 0;
+    padding: 15px 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+  }
+
+  .box {
+    border: 1px solid black;
+    padding: 90px 0;
+    p {
+        margin: 10px auto;
+    }
+  }
+
